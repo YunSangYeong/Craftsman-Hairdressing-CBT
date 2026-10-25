@@ -1,0 +1,25 @@
+[
+  {
+    "id": "IMPORT-EXAMPLE-001",
+    "subject": "헤어스타일 연출",
+    "topic": "커트 기초",
+    "question": "양식 예제: 커트 전 고객 상담에서 우선 확인할 정보는?",
+    "choices": [
+      "매장의 벽지 색만",
+      "원하는 스타일과 현재 모발 상태",
+      "직원의 선호 음악",
+      "다른 고객의 연락처"
+    ],
+    "answer": 2,
+    "explanation": "고객의 희망 길이·손질 습관과 현재 모발 상태를 함께 확인해야 적합한 시술 계획을 세울 수 있습니다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Hairdressing-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "pending",
+    "reviewNote": "양식 예제. 실제 등록 전 정답·해설·권한을 검토하세요.",
+    "version": "main",
+    "rights": "이 프로젝트 자체 제작 · CC BY 4.0 · Craftsman-Hairdressing-CBT contributors"
+  }
+]
