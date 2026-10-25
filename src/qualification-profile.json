@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "standard": {
+    "name": "cbt-site-standard",
+    "version": "1.4.0",
+    "referenceRepository": "YunSangYeong/electrician-cbt",
+    "referenceCommit": "b9a682ccff1b460334b78d5bfad9375b7ec4fbb6"
+  },
+  "qualification": {
+    "name": "미용사(일반)",
+    "slug": "hairdressing-cbt",
+    "officialIssuer": "한국산업인력공단",
+    "rulesVerificationStatus": "pending",
+    "officialSources": [],
+    "verifiedAt": null,
+    "verificationNote": "Q-Net 직접 확인은 네트워크 CONNECT 403으로 차단. 아래 값은 학습용 잠정 설정이며 공식 검증 완료를 뜻하지 않음."
+  },
+  "exam": {
+    "officialSubject": "헤어스타일 연출 및 두피·모발 관리 (공식 원문 재확인 대기)",
+    "questionCount": 60,
+    "durationMinutes": 60,
+    "choiceCount": 4,
+    "subjects": [
+      "헤어스타일 연출",
+      "두피·모발 관리",
+      "피부·화장품",
+      "공중위생·안전"
+    ],
+    "questionsPerSubject": [
+      24,
+      12,
+      12,
+      12
+    ],
+    "selectionPolicy": "학습용 영역별 배분 24/12/12/12. 공식 과목별 출제비율이 아님. 같은 family 우선 1문항 후 부족 시 고유 ID로 보충.",
+    "scoring": {
+      "maxScore": 100,
+      "passScore": 60,
+      "hasSubjectCutoff": false,
+      "subjectCutoffs": [],
+      "unansweredPolicy": "오답으로 처리"
+    }
+  },
+  "questionBank": {
+    "defaultBankId": "main",
+    "targetReviewedCount": 1000,
+    "importedDefaultStatus": "pending",
+    "types": [
+      "past",
+      "reconstructed",
+      "original"
+    ],
+    "allowNumericVariants": true,
+    "reportVariantFamiliesAndCounts": true
+  },
+  "ui": {
+    "locale": "ko-KR",
+    "showStudyCriteriaSelector": false,
+    "showBankYearRange": false,
+    "nextQuestionShortcut": "Space",
+    "shortcutModes": [
+      "exam",
+      "practice"
+    ],
+    "showTopDisclaimerBanner": false,
+    "mobileMenuScrollable": true
+  },
+  "storage": {
+    "namespace": "craftsman-hairdressing-cbt:v1",
+    "schemaVersion": 1,
+    "maxAttempts": 5000,
+    "maxExamResults": 30
+  },
+  "deployment": {
+    "provider": "github-pages",
+    "repository": "YunSangYeong/Craftsman-Hairdressing-CBT",
+    "branch": "main",
+    "basePath": "/Craftsman-Hairdressing-CBT/",
+    "publicUrl": "https://yunsangyeong.github.io/Craftsman-Hairdressing-CBT/",
+    "trigger": "push-main-after-validation",
+    "maxDeploymentAttempts": 1,
+    "stopOnFirstBlock": true
+  }
+}
